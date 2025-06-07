@@ -11,7 +11,7 @@
 🛑 **Important note:** This repo is a showcase only. The Oráculo code is proprietary and was developed as a custom solution for [Aya](https://aya.tec.br/), designed to empower businesses with fully personalized AI agents. For inquiries or collaboration, feel free to [reach out](mailto:joaohenrique@jhbdev.com.br).
 
 ---
-## 🎥 Demo
+## Interface screenshots
 
 | Screenshot | Description |
 |------------|-------------|
