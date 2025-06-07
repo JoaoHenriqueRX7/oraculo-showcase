@@ -9,9 +9,9 @@
 
 ---
 
-> 🛑 **Important:** This repository contains documentation only.  
+> 🛑 **Important:** This repo is just to showcase my work.  
 > The source code behind Oráculo is proprietary.  
-> For details or collaboration, [contact me](mailto:joaohenrique@jhbdev.com.br).
+> For details you can contact me, [contact me](mailto:joaohenrique@jhbdev.com.br).
 
 ---
 
