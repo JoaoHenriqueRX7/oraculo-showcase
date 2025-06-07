@@ -91,9 +91,6 @@ In short, Oráculo provides enterprises with a comprehensive toolkit to embed ad
 | `POST /chat/{agent_id}` | Converse with AI agent (text & voice) |
 | `POST /admin/instances` | Create/manage tenants                 |
 
-📖 [Full API details here](docs/api-spec.md).
-
----
 
 ## 📊 Data Model Overview
 
@@ -102,8 +99,6 @@ In short, Oráculo provides enterprises with a comprehensive toolkit to embed ad
 | `instances`       | Tenants (individual companies or departments)         |
 | `users`           | Role-based user access (admins, users)                |
 | `instance_agents` | Fully customizable agents per tenant                  |
-
-🗃️ [Complete data model ERD](docs/data-model.md)
 
 ---
 
@@ -127,10 +122,9 @@ In short, Oráculo provides enterprises with a comprehensive toolkit to embed ad
 
 ---
 
-## 🙌 Interested in Collaborating?
+## 🙌 Interested?
 
-I'm open to documentation improvements and further development opportunities. Reach out directly:
-
+Reach out directly:
 📧 [joaohenrique@jhbdev.com.br](mailto:joaohenrique@jhbdev.com.br)
 
 ---
@@ -142,4 +136,4 @@ Source code remains private under Aya partnership agreements.
 
 ---
 
-Thanks for checking out Oráculo — built in Brazil, empowering your business one agent at a time. 🇧🇷✨
+Thanks for checking out :)
