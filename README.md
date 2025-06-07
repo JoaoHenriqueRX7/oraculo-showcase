@@ -5,7 +5,7 @@
 </p>
 
 > **This is an early MVP.** Functionality comes first, so several screens are visually rough.  
-> Please excuse the spartan UI — **far better design work** is showcased in my [portfolio](https://yourportfolio.com/designs).
+> Please excuse the spartan UI — **bit better frontend work** is showcased in my [portfolio](https://yourportfolio.com/designs).
 
 ---
 
