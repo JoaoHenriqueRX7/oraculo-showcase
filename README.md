@@ -61,7 +61,7 @@ Planned enhancements include agent memory by function or role, BI dashboards, bi
 
 ---
 
-## 🛠️ How We Built It (Tech Stack)
+## 🛠️ How I Built It (Tech Stack)
 
 Oráculo was built with a modern, scalable stack designed to support real-time voice and text interactions, high configurability, and secure enterprise integration.
 
