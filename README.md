@@ -58,8 +58,7 @@ Oráculo was built using a modern, scalable stack designed to support real-time 
 
 | Component           | Technology                            | 
 |---------------------|---------------------------------------|
-| Frontend             | React, TypeScript                             |
-| Admin Interface      | React, Material UI                            |
+| Frontend Admin and User    | React, TypeScript                             |
 | Backend APIs         | Python (FastAPI), PostgreSQL                  |
 | Media Processing     | Python ecosystem (custom tools for PDF, image, and audio extraction) |
 | LLM Integration      | Multiple providers supported via dynamic API integration |
