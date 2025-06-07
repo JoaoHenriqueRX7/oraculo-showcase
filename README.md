@@ -19,7 +19,7 @@
 | [![Admin - Create Agent](https://drive.google.com/uc?export=view&id=1eaLUrE9MaEkJ8pNqPW46NcYD24OUtD2U)](https://drive.google.com/uc?export=view&id=1eaLUrE9MaEkJ8pNqPW46NcYD24OUtD2U) | Admin panel: creating a new agent for a tenant |
 
 ## Interface demonstration
-👉 **[Watch MVP Demo]([https://youtu.be/YOUR_VIDEO_URL]([https://youtu.be/6_zmRWJ77Jg?feature=shared)](https://youtu.be/6_zmRWJ77Jg?feature=shared))**
+👉 **[Watch MVP Demo](https://youtu.be/6_zmRWJ77Jg?feature=shared)**
 
 ---
 ## 📸 High-Level Architecture
