@@ -116,9 +116,6 @@ Oráculo was built using a modern, scalable stack designed to support real-time 
 | 💬 **Chat UI** (basic MVP look)           | 🛠️ **Admin Panel** (simple MVP style)         |
 |-------------------------------------------|-----------------------------------------------|
 | ![Chat GIF](assets/chat-demo.gif)         | ![Admin Panel](assets/admin.png)              |
-
-▶️ [**See Oráculo in action (YouTube Demo)**](https://youtu.be/YOUR_VIDEO_URL)
-
 ---
 
 ## 📌 Roadmap (Where We're Headed Next)
