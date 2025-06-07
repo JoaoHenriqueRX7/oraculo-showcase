@@ -11,9 +11,17 @@
 🛑 **Important note:** This repo is a showcase only. The Oráculo code is proprietary and was developed as a custom solution for [Aya](https://aya.tec.br/), designed to empower businesses with fully personalized AI agents. For inquiries or collaboration, feel free to [reach out](mailto:joaohenrique@jhbdev.com.br).
 
 ---
+## 🎥 Demo
 
+| Screenshot | Description |
+|------------|-------------|
+| [![User - Chat Text](https://drive.google.com/uc?export=view&id=1YJV8ZBjNma1OAktYyjvI0qIjd8fGJDLB)](https://drive.google.com/uc?export=view&id=1YJV8ZBjNma1OAktYyjvI0qIjd8fGJDLB) | User chat interface: conversation with agent (text) |
+| [![User - Chat Voice](https://drive.google.com/uc?export=view&id=1EOjNcHOmwXiYjPz_gXJXcvZeN0OfSXBg)](https://drive.google.com/uc?export=view&id=1EOjNcHOmwXiYjPz_gXJXcvZeN0OfSXBg) | User chat interface: conversation with agent (voice enabled via ElevenLabs) |
+| [![Admin - Edit Agent](https://drive.google.com/uc?export=view&id=1S8yY4OEF2lj9ZfqrYCnjcBA7EfKCuUoj)](https://drive.google.com/uc?export=view&id=1S8yY4OEF2lj9ZfqrYCnjcBA7EfKCuUoj) | Admin panel: editing an existing agent |
+| [![Admin - Create Agent](https://drive.google.com/uc?export=view&id=1eaLUrE9MaEkJ8pNqPW46NcYD24OUtD2U)](https://drive.google.com/uc?export=view&id=1eaLUrE9MaEkJ8pNqPW46NcYD24OUtD2U) | Admin panel: creating a new agent for a tenant |
 ## 📸 High-Level Architecture
 
+---
 Click below for a detailed view of the architecture:
 
 [![Architecture Diagram](https://drive.google.com/uc?export=view&id=1pkytIwxN_MQBnnzKYjoi8ou9vrZbNWq-)](https://drive.google.com/uc?export=view&id=1pkytIwxN_MQBnnzKYjoi8ou9vrZbNWq-)
@@ -110,17 +118,6 @@ Oráculo was built with a modern, scalable stack designed to support real-time v
 | `instances`       | Tenants (individual companies or departments)         |
 | `users`           | Role-based user access (admins, users)                |
 | `instance_agents` | Fully customizable agents per tenant                  |
-
----
-
-## 🎥 Demo & Screenshots
-
-| Screenshot | Description |
-|------------|-------------|
-| [![Admin - Create Agent](https://drive.google.com/uc?export=view&id=1eaLUrE9MaEkJ8pNqPW46NcYD24OUtD2U)](https://drive.google.com/uc?export=view&id=1eaLUrE9MaEkJ8pNqPW46NcYD24OUtD2U) | Admin panel: creating a new agent for a tenant |
-| [![User - Chat Text](https://drive.google.com/uc?export=view&id=1YJV8ZBjNma1OAktYyjvI0qIjd8fGJDLB)](https://drive.google.com/uc?export=view&id=1YJV8ZBjNma1OAktYyjvI0qIjd8fGJDLB) | User chat interface: conversation with agent (text) |
-| [![User - Chat Voice](https://drive.google.com/uc?export=view&id=1EOjNcHOmwXiYjPz_gXJXcvZeN0OfSXBg)](https://drive.google.com/uc?export=view&id=1EOjNcHOmwXiYjPz_gXJXcvZeN0OfSXBg) | User chat interface: conversation with agent (voice enabled via ElevenLabs) |
-| [![Admin - Edit Agent](https://drive.google.com/uc?export=view&id=1S8yY4OEF2lj9ZfqrYCnjcBA7EfKCuUoj)](https://drive.google.com/uc?export=view&id=1S8yY4OEF2lj9ZfqrYCnjcBA7EfKCuUoj) | Admin panel: editing an existing agent |
 
 ---
 
