@@ -54,12 +54,25 @@ In short, Oráculo provides enterprises with a comprehensive toolkit to embed ad
 
 ## 🛠️ How We Built It (Tech Stack)
 
+Oráculo was built using a modern, scalable stack designed to support real-time interactions and flexible enterprise integration.
+
 | Component           | Technology                            | Role                              |
 |---------------------|---------------------------------------|-----------------------------------|
 | 🐳 **Compute**      | Docker on AWS EC2 + AWS ALB           | Scalable infrastructure           |
 | 🗃️ **Database/Auth** | Supabase (PostgreSQL + JWT Auth)      | Multi-tenant user/tenant management |
 | 🌐 **Vector DB**    | External RAG (e.g., Pinecone)         | Contextual knowledge retrieval    |
+| Frontend             | React, TypeScript                             |
+| Admin Interface      | React, Material UI                            |
+| Backend APIs         | Python (FastAPI), PostgreSQL                  |
+| Media Processing     | Python ecosystem (custom tools for PDF, image, and audio extraction) |
+| LLM Integration      | Multiple providers supported via dynamic API integration |
+| Infrastructure       | Dockerized services deployed on AWS EC2, behind an Application Load Balancer |
+| Authentication       | Token-based (JWT), multi-tenant support       |
+| RAG / Vector Search  | External vector database API integration      |
 
+---
+
+👉 The architecture was designed with flexibility, scalability, and privacy in mind—supporting unlimited AI agent instances, voice and text interactions, and seamless integration with existing business systems.
 ---
 
 ## 🔗 Core Modules
