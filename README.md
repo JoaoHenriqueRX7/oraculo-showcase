@@ -150,4 +150,4 @@ Source code remains private, under agreements with Aya.
 
 ---
 
-Thanks for stopping by! 🚀
+Thanks for comming!
