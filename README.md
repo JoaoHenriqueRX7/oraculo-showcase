@@ -115,8 +115,6 @@ In short, Oráculo provides enterprises with a comprehensive toolkit to embed ad
 
 ▶️ [**See Oráculo in action (YouTube Demo)**](https://youtu.be/YOUR_VIDEO_URL)
 
-*(Again, UI-wise, better things await you in my [portfolio](https://yourportfolio.com/designs)!)*
-
 ---
 
 ## 📌 Roadmap (Where We're Headed Next)
