@@ -131,7 +131,8 @@ Oráculo was built with a modern, scalable stack designed to support real-time v
 - 🔧 Tenant-specific model fine-tuning  
 - 💳 Usage-based billing & rate limiting  
 - 📂 Bulk RAG document uploads  
-- 📱 White-labeled mobile app with voice support  
+- 📱 White-labeled mobile app with voice support
+- CRM, SAP integration
 
 ---
 
