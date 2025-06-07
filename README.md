@@ -1,125 +1,128 @@
-<h1 align="center">🔮 Oráculo – Multi-Agent LLM Platform 🚀</h1>
+<h1 align="center">🔮 Oráculo – Multi-Agent LLM Platform</h1>
 
 <p align="center">
-  <strong>An Enterprise MVP platform for orchestrating and managing multiple LLM agents</strong>
+  <strong>An MVP built in partnership with Aya (Vila Velha, Brazil) to empower businesses with custom AI agents</strong>
 </p>
 
-> **This is an early MVP.** Functionality comes first, so several screens are visually rough.  
-> Please excuse the spartan UI — **bit better frontend work** is showcased in my [portfolio](https://yourportfolio.com/designs).
+> ⚠️ **Quick heads-up:** You're looking at the MVP version—meaning functionality beats aesthetics this round. So please forgive the plain looks! If sleek UI is your thing, I've got better designs waiting in my [portfolio](https://yourportfolio.com/designs). 😉
 
 ---
 
-> 🛑 **Important:** This repo is just to showcase my work.  
-> The source code behind Oráculo is proprietary.  
-> For details you can, [contact me](mailto:joaohenrique@jhbdev.com.br).
+🛑 **Important note:** This repo is just a showcase. The Oráculo code is proprietary and developed in collaboration with [Aya](https://aya.tec.br/) to provide companies with a powerful, customizable tool. For inquiries or collaboration, feel free to [reach out](mailto:joaohenrique@jhbdev.com.br).
 
 ---
 
 ## 📸 High-Level Architecture
 
-Click to view full-size architecture diagram:
+Click below for a detailed view of our architecture:
 
-![Architecture Diagram](https://drive.google.com/uc?export=view&id=1pkytIwxN_MQBnnzKYjoi8ou9vrZbNWq-)
-
----
-
-## ✨ Features at a glance
-
-- **Real-time chat:** Multi-agent interface using SSE
-- **Admin Dashboard:** Basic CRUD for tenants, users, and agents
-- **RAG Integration:** Enriched responses using vector databases
-- **Media Processing:** PDFs, spreadsheets, images via **Docling**
-- **Provider Flexibility:** Dynamic integration of multiple LLM providers (OpenAI, Anthropic…)
+[![Architecture Diagram](https://drive.google.com/uc?export=view&id=1pkytIwxN_MQBnnzKYjoi8ou9vrZbNWq-)](https://drive.google.com/uc?export=view&id=1pkytIwxN_MQBnnzKYjoi8ou9vrZbNWq-)
 
 ---
 
-## 🌥️ Infrastructure Overview
+## 🚀 Why Oráculo?
 
-| Component                | Technology                        | Description                           |
-|--------------------------|-----------------------------------|---------------------------------------|
-| **Compute**              | 🐳 Docker on AWS EC2              | 2 EC2 instances behind an AWS ALB     |
-| **Auth & Data**          | 🛢️ Supabase PostgreSQL + Auth     | Multi-tenant user/tenant storage & JWT auth |
-| **Vector DB**            | 🌐 External RAG API (e.g., Pinecone) | Vector stores for knowledge retrieval |
+Developed alongside Aya, Oráculo is designed specifically to give companies the power to effortlessly create and manage their own customized AI agents. Its core strengths include:
 
----
-
-## 📌 Key Components
-
-- 📱 **User Frontend**: Real-time chat (React + Vite)
-- ⚙️ **Admin Frontend**: Management UI (React + MUI)
-- 🔐 **Orchestrator API**: Authentication, multi-tenancy (FastAPI + Supabase)
-- 🤖 **Multi-Agent LLM API**: Core LLM handling, RAG, Docling integration (FastAPI + Pydantic)
-- 🗃️ **Docling**: Media extraction (PDF/Image/Audio) using Python tooling
+- **Unlimited agent instances**: Create as many specialized AI agents as your business needs.
+- **Voice & text interactions**: Seamlessly chat with AI agents via voice or text.
+- **Real-time conversation flow**: Powered by server-sent events (SSE) for dynamic interactions.
+- **Intelligent context**: Integrated Retrieval-Augmented Generation (RAG) ensures precise, knowledge-rich responses.
+- **Flexible backend**: Supports integration with leading LLM providers (OpenAI, Anthropic, etc.).
+- **Media-friendly**: Directly process PDFs, images, audio, and more.
 
 ---
 
-## 🎯 Data Flow Quick Reference
+## 🛠️ How We Built It (Tech Stack)
 
-1. **Login** → JWT from Supabase
-2. **Agent Listing** → Tenant-specific agents from Orchestrator API
-3. **Chat request** → `/chat/{agent_id}` endpoint (SSE-enabled)
-4. **LLM Processing** → RAG enhancement & LLM provider calls
-5. **Streaming Responses** → Incremental token streaming to frontend
-
----
-
-## 🔑 Important Endpoints
-
-| Endpoint                | Description                   |
-|-------------------------|-------------------------------|
-| `POST /auth/token`      | User Authentication (JWT)     |
-| `GET /client/agents`    | Fetch available agents        |
-| `POST /chat/{agent_id}` | Chat with selected agent (SSE) |
-| `POST /admin/instances` | Create new tenant             |
-| **[Full API Specification](docs/api-spec.md)** | Comprehensive API details |
+| Component           | Technology                            | Role                              |
+|---------------------|---------------------------------------|-----------------------------------|
+| 🐳 **Compute**      | Docker on AWS EC2 + AWS ALB           | Scalable infrastructure           |
+| 🗃️ **Database/Auth** | Supabase (PostgreSQL + JWT Auth)      | Multi-tenant user/tenant management |
+| 🌐 **Vector DB**    | External RAG (e.g., Pinecone)         | Contextual knowledge retrieval    |
 
 ---
 
-## 📊 Primary Data Models (Supabase)
+## 🔗 Core Modules
 
-| Entity            | Highlights                                         |
-|-------------------|----------------------------------------------------|
-| `instances`       | Tenant/client instances                            |
-| `users`           | Users and roles (`super_admin`, `instance_admin`, `instance_user`) |
-| `instance_agents` | Configurable agent profiles per tenant             |
-
-[Full data model ERD](docs/data-model.md)
+- 📱 **User Frontend:** Real-time chat interface (React + Vite)
+- ⚙️ **Admin Dashboard:** Basic tenant & agent management (React + MUI)
+- 🔐 **Orchestrator API:** Authentication and orchestration (FastAPI + Supabase)
+- 🤖 **Multi-Agent LLM API:** LLM processing, RAG integration, media handling (FastAPI + Python)
+- 📄 **Docling:** Robust media parsing (PDF, images, audio)
 
 ---
 
-## 🎥 Screenshots & Demo
+## 🗂️ A Quick Look at the Flow
 
-| 🗣️ Chat Frontend (MVP UI)                | 🛠️ Admin Dashboard (MVP UI)                 |
-|------------------------------------------|--------------------------------------------|
-| ![Chat GIF](assets/chat-demo.gif)        | ![Admin Screenshot](assets/admin.png)       |
-
-👉 **[Watch Full MVP Demo on YouTube](https://youtu.be/YOUR_VIDEO_URL)**
-
-*(For polished UI examples, visit my [portfolio designs](https://yourportfolio.com/designs).)*
+1. **Login:** Auth via Supabase JWT
+2. **Pick an Agent:** Get tenant-specific agents
+3. **Start Chatting:** Real-time voice/text via `/chat/{agent_id}` (SSE)
+4. **Enhanced Replies:** Prompt enriched with RAG context, processed by selected LLM
+5. **Real-Time Interaction:** Responses delivered seamlessly, streamed live to frontend
 
 ---
 
-## 🚀 Next Steps (Roadmap)
+## 🔑 Essential API Endpoints
 
-- ✨ Complete UI/UX overhaul  
-- 🌐 Automatic prompt translations  
-- 🔧 Tenant-specific fine-tuning capabilities  
-- 💳 Usage-based billing & throttling  
-- 📂 Bulk RAG document upload
+| Endpoint                | Function                              |
+|-------------------------|---------------------------------------|
+| `POST /auth/token`      | Authenticate and issue JWT            |
+| `GET /client/agents`    | Fetch tenant-specific agents          |
+| `POST /chat/{agent_id}` | Converse with AI agent (text & voice) |
+| `POST /admin/instances` | Create/manage tenants                 |
 
----
-
-## 🙌 Contributing
-
-This repository accepts pull requests for documentation improvements. For direct collaboration on the proprietary codebase, please [get in touch](mailto:your.email@example.com).
+📖 [Full API details here](docs/api-spec.md).
 
 ---
 
-## 📜 License
+## 📊 Data Model Overview
 
-All documentation in this repository is shared under **Creative Commons CC-BY-NC-SA 4.0**.  
-All production source code remains proprietary and confidential.
+| Entity            | Key Details                                           |
+|-------------------|-------------------------------------------------------|
+| `instances`       | Tenants (individual companies or departments)         |
+| `users`           | Role-based user access (admins, users)                |
+| `instance_agents` | Fully customizable agents per tenant                  |
+
+🗃️ [Complete data model ERD](docs/data-model.md)
 
 ---
 
-**Thanks for stopping by!** 🎉
+## 🎥 Quick Demo & Screenshots
+
+| 💬 **Chat UI** (basic MVP look)           | 🛠️ **Admin Panel** (simple MVP style)         |
+|-------------------------------------------|-----------------------------------------------|
+| ![Chat GIF](assets/chat-demo.gif)         | ![Admin Panel](assets/admin.png)              |
+
+▶️ [**See Oráculo in action (YouTube Demo)**](https://youtu.be/YOUR_VIDEO_URL)
+
+*(Again, UI-wise, better things await you in my [portfolio](https://yourportfolio.com/designs)!)*
+
+---
+
+## 📌 Roadmap (Where We're Headed Next)
+
+- ✨ A full UI/UX makeover  
+- 🌐 Multilingual automatic translations  
+- 🔧 Tenant-specific model fine-tuning  
+- 💳 Usage-based billing and rate limiting  
+- 📂 Bulk document uploads for RAG databases
+
+---
+
+## 🙌 Interested in Collaborating?
+
+I'm open to documentation improvements and further development opportunities. Reach out directly:
+
+📧 [joaohenrique@jhbdev.com.br](mailto:joaohenrique@jhbdev.com.br)
+
+---
+
+## 📜 Licensing
+
+All documentation and visuals provided here are under **Creative Commons CC-BY-NC-SA 4.0**.  
+Source code remains private under Aya partnership agreements.
+
+---
+
+Thanks for checking out Oráculo — built in Brazil, empowering your business one agent at a time. 🇧🇷✨
