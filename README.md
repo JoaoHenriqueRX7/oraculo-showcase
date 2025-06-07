@@ -57,7 +57,7 @@ In short, Oráculo provides enterprises with a comprehensive toolkit to embed ad
 Oráculo was built using a modern, scalable stack designed to support real-time interactions and flexible enterprise integration.
 
 | Component           | Technology                            | 
-|---------------------|---------------------------------------|-----------------------------------|
+|---------------------|---------------------------------------|
 | Frontend             | React, TypeScript                             |
 | Admin Interface      | React, Material UI                            |
 | Backend APIs         | Python (FastAPI), PostgreSQL                  |
