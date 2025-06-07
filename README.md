@@ -60,7 +60,7 @@ Oráculo was built using a modern, scalable stack designed to support real-time 
 |---------------------|---------------------------------------|-----------------------------------|
 | 🐳 **Compute**      | Docker on AWS EC2 + AWS ALB           | Scalable infrastructure           |
 | 🗃️ **Database/Auth** | Supabase (PostgreSQL + JWT Auth)      | Multi-tenant user/tenant management |
-| 🌐 **Vector DB**    | External RAG (e.g., Pinecone)         | Contextual knowledge retrieval    |
+| 🌐 **Vector DB**    | Custom made RAG API :)  | Contextual knowledge retrieval    |
 | Frontend             | React, TypeScript                             |
 | Admin Interface      | React, Material UI                            |
 | Backend APIs         | Python (FastAPI), PostgreSQL                  |
