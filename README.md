@@ -4,7 +4,7 @@
   <strong>An MVP built in partnership with Aya (Vila Velha, Brazil) to empower businesses with custom AI agents</strong>
 </p>
 
-> ⚠️ **Quick heads-up:** You're looking at the MVP version—meaning functionality beats aesthetics this round. So please forgive the plain looks! If sleek UI is your thing, I've got better designs waiting in my [portfolio](https://yourportfolio.com/designs). 😉
+> ⚠️ **Quick heads-up:** You're looking at the MVP version—meaning functionality beats aesthetics this round. So please forgive the plain looks! I've got a bit more refined works in [portfolio](https://yourportfolio.com/designs). 😉
 
 ---
 
