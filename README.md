@@ -19,7 +19,7 @@
 
 Click to view full-size architecture diagram:
 
-[![Architecture Diagram](https://link-to-your-hosted-image.com/architecture.png)](https://link-to-your-hosted-image.com/architecture.png)
+![Architecture Diagram](https://drive.google.com/uc?export=view&id=1pkytIwxN_MQBnnzKYjoi8ou9vrZbNWq-)
 
 ---
 
