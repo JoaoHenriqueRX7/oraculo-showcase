@@ -22,14 +22,33 @@ Click below for a detailed view of our architecture:
 
 ## 🚀 Why Oráculo?
 
-Developed alongside Aya, Oráculo is designed specifically to give companies the power to effortlessly create and manage their own customized AI agents. Its core strengths include:
+Oráculo was developed as a custom MVP solution for Aya, a tech startup based in Vila Velha, Brazil. The goal was to provide a robust, highly flexible platform enabling enterprises to create and manage tailored AI agents. Here's how Oráculo makes a tangible impact on businesses:
 
-- **Unlimited agent instances**: Create as many specialized AI agents as your business needs.
-- **Voice & text interactions**: Seamlessly chat with AI agents via voice or text.
-- **Real-time conversation flow**: Powered by server-sent events (SSE) for dynamic interactions.
-- **Intelligent context**: Integrated Retrieval-Augmented Generation (RAG) ensures precise, knowledge-rich responses.
-- **Flexible backend**: Supports integration with leading LLM providers (OpenAI, Anthropic, etc.).
-- **Media-friendly**: Directly process PDFs, images, audio, and more.
+### 🧠 **Fully Customized Enterprise AI**
+Instead of generic chatbots, Oráculo lets companies build AI agents fully aligned with their brand voice, culture, and business strategy. Each agent feels like a natural extension of the company's identity.
+
+### 🔓 **Unlimited Scalability**
+Oráculo supports unlimited agent instances and users under a single enterprise license, making it easier and more cost-effective for businesses to scale their AI initiatives.
+
+### 🤖 **Multiple AI Models in One Platform**
+Unlike solutions limited to a single model, Oráculo seamlessly integrates diverse LLM providers (e.g., GPT, Claude, Gemini, LLaMA, Mistral). This flexibility ensures optimal performance tailored to specific business tasks.
+
+### 🎙️ **Voice and Text Interactions**
+Agents can communicate using natural voice interactions—customized to represent key individuals such as company leaders or spokespeople—enhancing user engagement and trust.
+
+### 🔧 **Streamlined Integration & Support**
+Oráculo offers guided setup, strategic onboarding, and continuous support, simplifying integration with essential business systems (CRM, ERP, databases), thus reducing implementation friction.
+
+### 📊 **From Insight to Execution**
+Oráculo isn't limited to passive responses—it actively generates actionable outputs such as reports, documents, and even code, integrating seamlessly into existing business workflows.
+
+### 🛡️ **Privacy & Compliance**
+Data stays secure within your own infrastructure. Oráculo ensures compliance and data governance by eliminating third-party data transfers, maintaining enterprise-grade security.
+
+### 🌟 **Future-Proofing Your AI Strategy**
+Planned future enhancements include memory per agent role, automatic BI-driven dashboards, secure biometric authentication, and mobile app integrations. These capabilities ensure businesses remain ahead of the AI curve.
+
+In short, Oráculo provides enterprises with a comprehensive toolkit to embed advanced AI seamlessly into their daily operations, significantly improving productivity and strategic decision-making capabilities.
 
 ---
 
