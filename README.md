@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1YJV8ZBjNma1OAktYyjvI0qIjd8fGJDLB" alt="Oráculo Chat Banner" width="1000"/>
-</p>
-
 <h1 align="center">🔮 Oráculo – Multi-Agent LLM Platform</h1>
 
 <p align="center">
