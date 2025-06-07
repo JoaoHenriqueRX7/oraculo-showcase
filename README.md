@@ -119,7 +119,7 @@ Oráculo was built with a modern, scalable stack designed to support real-time v
 |------------|-------------|
 | [![Admin - Create Agent](https://drive.google.com/uc?export=view&id=1eaLUrE9MaEkJ8pNqPW46NcYD24OUtD2U)](https://drive.google.com/uc?export=view&id=1eaLUrE9MaEkJ8pNqPW46NcYD24OUtD2U) | Admin panel: creating a new agent for a tenant |
 | [![User - Chat Text](https://drive.google.com/uc?export=view&id=1YJV8ZBjNma1OAktYyjvI0qIjd8fGJDLB)](https://drive.google.com/uc?export=view&id=1YJV8ZBjNma1OAktYyjvI0qIjd8fGJDLB) | User chat interface: conversation with agent (text) |
-| [![User - Chat Voice](https://drive.google.com/uc?export=view&id=1EOjNcHOmwXiYjPz_gXJXcvZeN0OfSXBg)](https://drive.google.com/uc?export=view&id=1EOjNcHOmwXiYjPz_gXJXcvZeN0OfSXBg) | User chat interface: conversation with agent (voice enabled) |
+| [![User - Chat Voice](https://drive.google.com/uc?export=view&id=1EOjNcHOmwXiYjPz_gXJXcvZeN0OfSXBg)](https://drive.google.com/uc?export=view&id=1EOjNcHOmwXiYjPz_gXJXcvZeN0OfSXBg) | User chat interface: conversation with agent (voice enabled via ElevenLabs) |
 | [![Admin - Edit Agent](https://drive.google.com/uc?export=view&id=1S8yY4OEF2lj9ZfqrYCnjcBA7EfKCuUoj)](https://drive.google.com/uc?export=view&id=1S8yY4OEF2lj9ZfqrYCnjcBA7EfKCuUoj) | Admin panel: editing an existing agent |
 
 ---
