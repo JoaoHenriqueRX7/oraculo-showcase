@@ -11,14 +11,17 @@
 🛑 **Important note:** This repo is a showcase only. The Oráculo code is proprietary and was developed as a custom solution for [Aya](https://aya.tec.br/), designed to empower businesses with fully personalized AI agents. For inquiries or collaboration, feel free to [reach out](mailto:joaohenrique@jhbdev.com.br).
 
 ---
-## Interface screenshots
-
 | page | Description |
 |------------|-------------|
 | [![User - Chat Text](https://drive.google.com/uc?export=view&id=1YJV8ZBjNma1OAktYyjvI0qIjd8fGJDLB)](https://drive.google.com/uc?export=view&id=1YJV8ZBjNma1OAktYyjvI0qIjd8fGJDLB) | User chat interface: conversation with agent (text) |
 | [![User - Chat Voice](https://drive.google.com/uc?export=view&id=1EOjNcHOmwXiYjPz_gXJXcvZeN0OfSXBg)](https://drive.google.com/uc?export=view&id=1EOjNcHOmwXiYjPz_gXJXcvZeN0OfSXBg) | User chat interface: conversation with agent (voice enabled via ElevenLabs) |
 | [![Admin - Edit Agent](https://drive.google.com/uc?export=view&id=1S8yY4OEF2lj9ZfqrYCnjcBA7EfKCuUoj)](https://drive.google.com/uc?export=view&id=1S8yY4OEF2lj9ZfqrYCnjcBA7EfKCuUoj) | Admin panel: editing an existing agent |
 | [![Admin - Create Agent](https://drive.google.com/uc?export=view&id=1eaLUrE9MaEkJ8pNqPW46NcYD24OUtD2U)](https://drive.google.com/uc?export=view&id=1eaLUrE9MaEkJ8pNqPW46NcYD24OUtD2U) | Admin panel: creating a new agent for a tenant |
+
+## Interface demonstration
+👉 **[Watch MVP Demo on YouTube]([https://youtu.be/YOUR_VIDEO_URL](https://youtu.be/6_zmRWJ77Jg?feature=shared))**
+
+---
 ## 📸 High-Level Architecture
 
 ---
