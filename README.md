@@ -12,11 +12,10 @@
 
 ---
 
-https://drive.google.com/file/d/1fia6mQ195g1jyCGwVQ1GRsKFhwByNGKI/view?usp=share_link
 | page | Description |
 |------------|-------------|
 | [![User - Chat Text](https://drive.google.com/uc?export=view&id=1YJV8ZBjNma1OAktYyjvI0qIjd8fGJDLB)](https://drive.google.com/uc?export=view&id=1YJV8ZBjNma1OAktYyjvI0qIjd8fGJDLB) | User chat interface: conversation with agent (text) |
-| [![User - Chat Voice](https://drive.google.com/uc?export=view&id=1fia6mQ195g1jyCGwVQ1GRsKFhwByNGKI)](https://drive.google.com/uc?export=view&id=1fia6mQ195g1jyCGwVQ1GRsKFhwByNGKI) | User chat interface: conversation with agent (voice enabled via ElevenLabs) |
+| [![User - Chat Voice](https://drive.google.com/uc?export=view&id=1EOjNcHOmwXiYjPz_gXJXcvZeN0OfSXBg)](https://drive.google.com/uc?export=view&id=1EOjNcHOmwXiYjPz_gXJXcvZeN0OfSXBg) | User chat interface: conversation with agent (voice enabled via ElevenLabs) |
 | [![Admin - Edit Agent](https://drive.google.com/uc?export=view&id=1S8yY4OEF2lj9ZfqrYCnjcBA7EfKCuUoj)](https://drive.google.com/uc?export=view&id=1S8yY4OEF2lj9ZfqrYCnjcBA7EfKCuUoj) | Admin panel: editing an existing agent |
 | [![Admin - Create Agent](https://drive.google.com/uc?export=view&id=1eaLUrE9MaEkJ8pNqPW46NcYD24OUtD2U)](https://drive.google.com/uc?export=view&id=1eaLUrE9MaEkJ8pNqPW46NcYD24OUtD2U) | Admin panel: creating a new agent for a tenant |
 
